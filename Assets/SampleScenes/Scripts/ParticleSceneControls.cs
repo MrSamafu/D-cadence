@@ -1,9 +1,9 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityStandardAssets.Effects;
+
 
 
 namespace UnityStandardAssets.SceneUtils
@@ -238,3 +238,4 @@ namespace UnityStandardAssets.SceneUtils
         }
     }
 }
+*/
