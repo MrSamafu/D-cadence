@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Piege : MonoBehaviour
+public class PiegeSamson : MonoBehaviour
 {
     public GameObject cube;
 
