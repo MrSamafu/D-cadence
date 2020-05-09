@@ -11,6 +11,7 @@ public class openDoorLabo : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             anim.SetBool("Open", true);
+            
         }
     }
     private void OnTriggerExit(Collider other)
