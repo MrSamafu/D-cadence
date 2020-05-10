@@ -5,13 +5,9 @@ using UnityEngine;
 public class GroundChecker : MonoBehaviour//détermine si le personne touche un sol ou non, cela permet de savoir si il peut ou non sauter
 {
     private bool isGrounded = false;
-    private PlayerController checker;
+    public PlayerController checker;
 
-    private void Start()
-    {
-        checker = GetComponentInParent<PlayerController>();
-
-    }
+    
 
     public void OnTriggerStay(Collider other)
     {
